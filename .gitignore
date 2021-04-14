@@ -1,33 +1,20 @@
-# gradle
+# Ignore everything
+/*
 
-.gradle/
-build/
-out/
-classes/
+# Folders
+!/gradle
+!/src
+!/.github
 
-# eclipse
-
-*.launch
-
-# idea
-
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# vscode
-
-.settings/
-.vscode/
-bin/
-.classpath
-.project
-
-# macos
-
-*.DS_Store
-
-# fabric
-
-run/
+# Files
+!/.gitattributes
+!/.gitignore
+!/.editorconfig
+!/build.gradle
+!/gradle.properties
+!/gradlew
+!/gradlew.bat
+!/HEADER
+!/LICENSE
+!/README.md
+!/settings.gradle
