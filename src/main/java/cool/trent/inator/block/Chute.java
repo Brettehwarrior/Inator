@@ -6,7 +6,6 @@ import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
-import net.minecraft.fluid.Fluids;
 import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
@@ -45,7 +44,6 @@ public class Chute extends ConnectingBlock implements BlockEntityProvider  {
                 .with(ENABLED, true)
         );
     }
-
 
     // Set state when placing
     @Override
