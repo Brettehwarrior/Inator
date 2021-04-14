@@ -1,0 +1,17 @@
+{
+  "parent":"block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "texture": "inator:block/chute",
+    "particle": "inator:block/chute"
+  },
+  "elements": [
+    {
+      "from": [3, 3, 3],
+      "to": [13, 13, 3],
+      "faces": {
+        "north":  {"texture": "#texture"}
+      }
+    }
+  ]
+}

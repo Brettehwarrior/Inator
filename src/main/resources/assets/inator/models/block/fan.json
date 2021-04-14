@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:block/cube_directional",
+  "textures": {
+    "particle": "inator:block/fan_side",
+
+    "north": "inator:block/fan_front",
+    "south": "inator:block/chute",
+
+    "up": "inator:block/fan_side",
+    "down": "inator:block/fan_side",
+    "east": "inator:block/fan_side",
+    "west": "inator:block/fan_side"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "multipart": [
+    {
+      "when": {"north": "false"},
+      "apply": {"model": "inator:block/chute_noside"}
+    },
+    {
+      "when": {"east": "false"},
+      "apply": {"model": "inator:block/chute_noside", "y": 90}
+    },
+    {
+      "when": {"south": "false"},
+      "apply": {"model": "inator:block/chute_noside", "y": 180}
+    },
+    {
+      "when": {"west": "false"},
+      "apply": {"model": "inator:block/chute_noside", "y": 270}
+    },
+    {
+      "when": {"up": "false"},
+      "apply": {"model": "inator:block/chute_noside", "x": 270}
+    },
+    {
+      "when": {"down": "false"},
+      "apply": {"model": "inator:block/chute_noside", "x": 90}
+    },
+
+
+
+    {
+      "when": {"north": "true"},
+      "apply": {"model": "inator:block/chute_side"}
+    },
+    {
+      "when": {"east": "true"},
+      "apply": {"model": "inator:block/chute_side", "y": 90}
+    },
+    {
+      "when": {"south": "true"},
+      "apply": {"model": "inator:block/chute_side", "y": 180}
+    },
+    {
+      "when": {"west": "true"},
+      "apply": {"model": "inator:block/chute_side", "y": 270}
+    },
+    {
+      "when": {"up": "true"},
+      "apply": {"model": "inator:block/chute_side", "x": 270}
+    },
+    {
+      "when": {"down": "true"},
+      "apply": {"model": "inator:block/chute_side", "x": 90}
+    }
+  ]
+}

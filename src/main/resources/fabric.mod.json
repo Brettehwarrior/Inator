@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "inator",
+  "version": "${version}",
+
+  "name": "Inator",
+  "description": "I will simply create a machine that solves my problems for me!",
+  "authors": [
+    "Trent"
+  ],
+  "contact": {
+    "homepage": "https://trent.cool/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/inator/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cool.trent.inator.InatorMod"
+    ]
+  },
+  "mixins": [
+    "inator.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

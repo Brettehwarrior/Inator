@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "inator:block/fan",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "inator:block/fan",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "inator:block/fan"
+    },
+    "facing=south": {
+      "model": "inator:block/fan",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "inator:block/fan",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "inator:block/fan",
+      "y": 270
+    }
+  }
+}

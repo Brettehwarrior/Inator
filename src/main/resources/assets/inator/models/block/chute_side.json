@@ -1,0 +1,19 @@
+{
+  "textures": {
+    "texture": "inator:block/chute",
+    "particle": "inator:block/chute"
+  },
+  "elements": [
+    {
+      "from": [3, 3, 0],
+      "to": [13, 13, 3],
+      "faces": {
+        "north": {"texture": "#texture", "cullface": "north"},
+        "east":  {"texture": "#texture" },
+        "west":  {"texture": "#texture" },
+        "up": 	 {"texture": "#texture" },
+        "down":  {"texture": "#texture" }
+      }
+    }
+  ]
+}
